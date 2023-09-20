@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     #  include() function allows reefrencing other URLconfs
-    path("polls/", include("polls.urls")),
+    path('polls/', include("polls.urls")),
     path('admin/', admin.site.urls),
 ]
